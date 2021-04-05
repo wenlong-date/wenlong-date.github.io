@@ -1,0 +1,48 @@
+# Permalinks
+permalink:        /post/:title.html
+
+# Setup
+url:              https://wenlong-date.github.io
+img_url:          https://cdn.jsdelivr.net/gh/infp/infp.github.io/images
+
+# Set to '' in case of hosting on `https://<your-github-name>.github.io`
+baseurl:          ''
+
+title:            WL's Blog
+
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:      >
+  TODO
+
+notification:     |
+
+
+# Google Analytics tracking ID
+# TODO: 如果使用本主题，请务必替换此处的 Google 统计代码，否则你的站点将无法获得统计数据
+analytics:        ''
+
+# Fallback image and color if not overwritten for tag or post
+image:            /public/images/mountains.jpg
+color:            '#dc322f'
+
+author:
+  name:           WL
+  email:          wenlong.date@gmail
+  photo:          /public/images/WL.png
+  github:         wenlong-date
+
+
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:          |
+    TODO
+
+
+compress_html:
+  clippings:      all
+  comments:       ["<!--", "-->"]
+  endings:        all
+  startings:      [html, head, body]
+
+sass:
+  sass_dir:       /public/css
+  style:          compressed
